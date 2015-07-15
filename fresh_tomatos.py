@@ -161,9 +161,12 @@ def open_movies_page(movies):
 def main():
 	ramb0 = media.movie("Rambo","http://www.freemovieposters.net/posters/rambo_iv_2008_4791_poster.jpg","https://youtu.be/2CRjdwRYQbU","Bad ass dude!")
 	print ramb0.title
-	mad_max = media.Movie("Mad Max","http://ia.media-imdb.com/images/M/MV5BMTUyMTE0ODcxNF5BMl5BanBnXkFtZTgwODE4NDQzNTE@._V1_SX640_SY720_.jpg","https://youtu.be/vjBb4SZ0F6Q","")
+	mad_max = media.movie("Mad Max","http://ia.media-imdb.com/images/M/MV5BMTUyMTE0ODcxNF5BMl5BanBnXkFtZTgwODE4NDQzNTE@._V1_SX640_SY720_.jpg","https://youtu.be/vjBb4SZ0F6Q","")
 	#	terminat0r =
 	movies = [ramb0,mad_max]
+	create_movie_tiles_content(movies)
+	open_movies_page(movies)
+	
     	
 main()
 
