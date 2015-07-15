@@ -1,6 +1,7 @@
 import webbrowser
 import os
 import re
+import media
 # Styles and scripting for the page
 main_page_head = '''
 <head>
@@ -156,3 +157,35 @@ def open_movies_page(movies):
     url = os.path.abspath(output_file.name)
 
     webbrowser.open('file://' + url, new=2) # open in a new tab, if possible
+    
+def main():
+	ramb0 = media.movie("Rambo","http://www.freemovieposters.net/posters/rambo_iv_2008_4791_poster.jpg","https://youtu.be/2CRjdwRYQbU","Bad ass dude!")
+	print ramb0.title
+
+main()
+#	madmax = 
+#	terminat0r =
+	
+    	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
