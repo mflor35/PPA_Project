@@ -1,2 +1,2 @@
-# PPI_Project
+# PPA_Project
 Python Programming Academy project
